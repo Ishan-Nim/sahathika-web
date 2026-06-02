@@ -1,0 +1,98 @@
+{
+  "uuid": "2c262235-047f-40a1-a63a-e8422993bc8e",
+  "url": "https://www.credential.net/2c262235-047f-40a1-a63a-e8422993bc8e",
+  "screenshot": "screenshot.png",
+  "meta": {
+    "title": "Mobile Application Penetration Tester",
+    "issuer": "\n\nINE",
+    "issued_on": "Issued on May 3, 2026 ",
+    "description": "Learn from the world\u2019s leading experts in Cloud, Cybersecurity, Data Science & Networking. Train with INE and prove your skills by earning top industry recognized IT certifications.",
+    "og_image": "https://api.accredible.com/v1/frontend/credential_opengraph_seo_image/181370914",
+    "og_title": "Mobile Application Penetration Tester \u2022 Ishan Nimantha \u2022 INE - Expert IT Training & Certifications ",
+    "og_desc": "Learn from the world\u2019s leading experts in Cloud, Cybersecurity, Data Science & Networking. Train with INE and prove your skills by earning top industry recognized IT certifications."
+  },
+  "images": [
+    {
+      "file": "001_rosette_svg.svg",
+      "url": "https://www.credential.net/assets/images/rosette.svg",
+      "size": 2033
+    },
+    {
+      "file": "002_user_svg.svg",
+      "url": "https://www.credential.net/assets/images/icons/user.svg",
+      "size": 476
+    },
+    {
+      "file": "003_accredible_credential_net_logo_svg.svg",
+      "url": "https://www.credential.net/assets/themes/credential.net/images/accredible_credential_net_logo.svg",
+      "size": 16993
+    },
+    {
+      "file": "004_accredible_logo_svg.svg",
+      "url": "https://www.credential.net/assets/themes/credential.net/images/accredible_logo.svg",
+      "size": 16993
+    },
+    {
+      "file": "005_logo_48_png.png",
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+      "size": 2228
+    },
+    {
+      "file": "006_ethereum_svg.svg",
+      "url": "https://www.credential.net/assets/images/colored-icons/ethereum.svg",
+      "size": 792
+    },
+    {
+      "file": "007_16916842306355721137547829902882_png.png",
+      "url": "https://templates.images.credential.net/16916842306355721137547829902882.png",
+      "size": 6871
+    },
+    {
+      "file": "008_16916889831575943649484346229523_png.png",
+      "url": "https://templates.images.credential.net/16916889831575943649484346229523.png",
+      "size": 8799
+    },
+    {
+      "file": "009_16916892782287786227489803518399_png.png",
+      "url": "https://templates.images.credential.net/16916892782287786227489803518399.png",
+      "size": 12235
+    },
+    {
+      "file": "010_16947191522574407741170443928939_png.png",
+      "url": "https://templates.images.credential.net/16947191522574407741170443928939.png",
+      "size": 62098
+    },
+    {
+      "file": "011_16945463285349996469494460218671_png.png",
+      "url": "https://accredible_temp_credential_images.s3-external-1.amazonaws.com/16945463285349996469494460218671.png?cb=1694546328265",
+      "size": 9581
+    },
+    {
+      "file": "012_17547308458293757209917787462506_jpeg.jpeg",
+      "url": "https://accredible_temp_credential_images.s3-external-1.amazonaws.com/17547308458293757209917787462506.jpeg?cb=1754730848513",
+      "size": 7288
+    },
+    {
+      "file": "013_17612489708236815926049924683171_png.png",
+      "url": "https://templates.images.credential.net/17612489708236815926049924683171.png",
+      "size": 82966
+    },
+    {
+      "file": "014_16921892711681168993450498172773_png.png",
+      "url": "https://templates.images.credential.net/16921892711681168993450498172773.png",
+      "size": 179411
+    },
+    {
+      "file": "015_16916884132249459486639895795612_png.png",
+      "url": "https://templates.images.credential.net/16916884132249459486639895795612.png",
+      "size": 264572
+    }
+  ],
+  "largest_images": [
+    "015_16916884132249459486639895795612_png.png",
+    "014_16921892711681168993450498172773_png.png",
+    "013_17612489708236815926049924683171_png.png",
+    "010_16947191522574407741170443928939_png.png",
+    "003_accredible_credential_net_logo_svg.svg"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "uuid": "15172f35-44b0-45c0-b9bc-ea122c51307f",
+  "url": "https://www.credential.net/15172f35-44b0-45c0-b9bc-ea122c51307f",
+  "screenshot": "screenshot.png",
+  "meta": {
+    "title": "Certified Professional Penetration Tester",
+    "issuer": "\n\nINE",
+    "issued_on": "Issued on July 6, 2025 ",
+    "description": "Learn from the world\u2019s leading experts in Cloud, Cybersecurity, Data Science & Networking. Train with INE and prove your skills by earning top industry recognized IT certifications.",
+    "og_image": "https://api.accredible.com/v1/frontend/credential_opengraph_seo_image/154311923",
+    "og_title": "Certified Professional Penetration Tester \u2022 Harith Dilshan \u2022 INE - Expert IT Training & Certifications ",
+    "og_desc": "Learn from the world\u2019s leading experts in Cloud, Cybersecurity, Data Science & Networking. Train with INE and prove your skills by earning top industry recognized IT certifications."
+  },
+  "images": [
+    {
+      "file": "001_rosette_svg.svg",
+      "url": "https://www.credential.net/assets/images/rosette.svg",
+      "size": 2033
+    },
+    {
+      "file": "002_user_svg.svg",
+      "url": "https://www.credential.net/assets/images/icons/user.svg",
+      "size": 476
+    },
+    {
+      "file": "003_accredible_logo_svg.svg",
+      "url": "https://www.credential.net/assets/themes/credential.net/images/accredible_logo.svg",
+      "size": 16993
+    },
+    {
+      "file": "004_accredible_credential_net_logo_svg.svg",
+      "url": "https://www.credential.net/assets/themes/credential.net/images/accredible_credential_net_logo.svg",
+      "size": 16993
+    },
+    {
+      "file": "005_logo_48_png.png",
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+      "size": 2228
+    },
+    {
+      "file": "006_ethereum_svg.svg",
+      "url": "https://www.credential.net/assets/images/colored-icons/ethereum.svg",
+      "size": 792
+    },
+    {
+      "file": "007_16916892782287786227489803518399_png.png",
+      "url": "https://templates.images.credential.net/16916892782287786227489803518399.png",
+      "size": 12235
+    },
+    {
+      "file": "008_16916889831575943649484346229523_png.png",
+      "url": "https://templates.images.credential.net/16916889831575943649484346229523.png",
+      "size": 8799
+    },
+    {
+      "file": "009_16916842306355721137547829902882_png.png",
+      "url": "https://templates.images.credential.net/16916842306355721137547829902882.png",
+      "size": 6871
+    },
+    {
+      "file": "010_16947190403078086581199361007762_png.png",
+      "url": "https://templates.images.credential.net/16947190403078086581199361007762.png",
+      "size": 62780
+    },
+    {
+      "file": "011_16917718658110002189401622818270_png.png",
+      "url": "https://templates.images.credential.net/16917718658110002189401622818270.png",
+      "size": 69579
+    },
+    {
+      "file": "012_16945463285349996469494460218671_png.png",
+      "url": "https://accredible_temp_credential_images.s3-external-1.amazonaws.com/16945463285349996469494460218671.png?cb=1694546328265",
+      "size": 9581
+    },
+    {
+      "file": "013_17612493543730243487920626475022_png.png",
+      "url": "https://templates.images.credential.net/17612493543730243487920626475022.png",
+      "size": 82966
+    },
+    {
+      "file": "014_16916884132249459486639895795612_png.png",
+      "url": "https://templates.images.credential.net/16916884132249459486639895795612.png",
+      "size": 264572
+    },
+    {
+      "file": "015_16921892006097802617277641572366_png.png",
+      "url": "https://templates.images.credential.net/16921892006097802617277641572366.png",
+      "size": 179579
+    },
+    {
+      "file": "016_17519461128378714859392592587570_jpeg.jpeg",
+      "url": "https://accredible_temp_credential_images.s3-external-1.amazonaws.com/17519461128378714859392592587570.jpeg?cb=1751946117206",
+      "size": 753714
+    }
+  ],
+  "largest_images": [
+    "016_17519461128378714859392592587570_jpeg.jpeg",
+    "014_16916884132249459486639895795612_png.png",
+    "015_16921892006097802617277641572366_png.png",
+    "013_17612493543730243487920626475022_png.png",
+    "011_16917718658110002189401622818270_png.png"
+  ]
+}

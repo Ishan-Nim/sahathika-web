@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Credential Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+
+      <header class="topbar">
+        <div class="topbar__inner">
+          <a class="brand brand--logo" id="homeTrigger" href="https://www.credential.net/">
+            <img src="accredible_credential_net_logo.svg" alt="Accredible Credential.net" height="32">
+          </a>
+          <nav class="topbar__nav" aria-label="Primary">
+            <a href="https://v2.accounts.accredible.com/sign-in">Suggested Credentials</a>
+            <a href="https://v2.accounts.accredible.com/sign-in">Career Journey</a>
+            <a class="signin" href="https://v2.accounts.accredible.com/sign-in">
+              <span class="signin__icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="8" r="4" fill="currentColor"></circle>
+                  <path d="M4 21c1.6-4.2 5-6 8-6s6.4 1.8 8 6" fill="currentColor"></path>
+                </svg>
+              </span>
+              <span>Sign in</span>
+            </a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+
+        <!-- Profile strip -->
+        <section class="profile-strip view-section" id="listView">
+          <div class="profile-strip__inner">
+            <div class="profile-strip__avatar" aria-hidden="true">
+              <img
+                src="cert_images/wallet_ishannim725761/009_17547308458293757209917787462506_jpeg.jpeg"
+                alt="Ishan Nimantha"
+              >
+            </div>
+            <div>
+              <h1>Ishan Nimantha</h1>
+              <p>5 Credentials <span>|</span> 3 Issuers</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Credential grid -->
+        <section class="list-layout view-section" id="gridView" aria-labelledby="credentialsHeading">
+          <div class="content-width">
+            <article class="insight-banner">
+              <div class="insight-banner__icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48">
+                  <circle cx="24" cy="24" r="24" fill="currentColor"></circle>
+                  <path d="M11 30l8-8 7 6 11-14" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <circle cx="12" cy="30" r="3" fill="white"></circle>
+                  <circle cx="19" cy="22" r="3" fill="white"></circle>
+                  <circle cx="26" cy="28" r="3" fill="white"></circle>
+                  <circle cx="37" cy="14" r="3" fill="white"></circle>
+                </svg>
+              </div>
+              <div class="insight-banner__copy">
+                <h2>Personalized Career Insights</h2>
+                <p>Sign in to view tailored job insights based on your earned credentials.</p>
+              </div>
+              <button class="ghost-button" type="button">Sign In</button>
+            </article>
+
+            <h2 class="sr-only" id="credentialsHeading">Credentials</h2>
+            <div class="credential-grid" id="credentialGrid"></div>
+          </div>
+        </section>
+
+        <!-- Detail view -->
+        <section class="detail-view hidden view-section" id="detailView">
+          <div class="detail-hero">
+            <div class="content-width detail-hero__inner">
+              <div class="detail-gallery">
+                <div class="detail-gallery__thumbs" id="detailThumbs"></div>
+                <div class="detail-gallery__preview" id="detailPreview"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-width detail-content">
+            <section class="detail-main">
+              <div class="issuer-line">
+                <div class="issuer-badge" id="detailIssuerBadge"></div>
+                <a class="issuer-line__name" href="#" id="detailIssuerLink">INE</a>
+              </div>
+
+              <h2 id="detailTitle"></h2>
+
+              <div class="action-row">
+
+                <!-- Download dropdown -->
+                <div class="action-drop" id="dlDrop">
+                  <button class="action-btn" type="button" id="dlTrigger" aria-haspopup="true" aria-expanded="false">
+                    <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v9m0 0l-3-3m3 3l3-3M4 15h12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    DOWNLOAD
+                  </button>
+                  <div class="action-drop__menu hidden" id="dlMenu" role="menu">
+                    <div class="drop-section-title">Download certificate as</div>
+                    <a class="drop-item" id="dlCertOB" href="#" download role="menuitem">
+                      <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4h8l4 4v8H4V4z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 4v4h4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                      <span>JSON</span><span class="drop-item__sub">Open Badge 3.0</span>
+                    </a>
+                    <a class="drop-item" id="dlCertW3C" href="#" download role="menuitem">
+                      <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4h8l4 4v8H4V4z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 4v4h4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                      <span>JSON</span><span class="drop-item__sub">W3C Verified Credential</span>
+                    </a>
+                    <div class="drop-section-title">Download badge as</div>
+                    <a class="drop-item" id="dlBadgeOB" href="#" download role="menuitem">
+                      <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4h8l4 4v8H4V4z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 4v4h4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                      <span>JSON</span><span class="drop-item__sub">Open Badge 3.0</span>
+                    </a>
+                    <a class="drop-item" id="dlBadgeW3C" href="#" download role="menuitem">
+                      <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4h8l4 4v8H4V4z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 4v4h4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                      <span>JSON</span><span class="drop-item__sub">W3C Verified Credential</span>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Help button -->
+                <button class="action-btn" type="button">
+                  <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.7"/><path d="M8 8a2 2 0 114 0c0 1.5-2 2-2 3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="10" cy="15" r=".8" fill="currentColor"/></svg>
+                  HELP
+                </button>
+
+                <!-- More dropdown -->
+                <div class="action-drop" id="moreDrop">
+                  <button class="action-btn" type="button" id="moreTrigger" aria-haspopup="true" aria-expanded="false">
+                    <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" style="width:12px;height:12px"><path d="M5 8l5 5 5-5H5z"/></svg>
+                    MORE
+                  </button>
+                  <div class="action-drop__menu hidden" id="moreMenu" role="menu">
+                    <a class="drop-item" id="contactIssuerBtn" href="#" role="menuitem">
+                      <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="2" y="5" width="16" height="11" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 7l8 5 8-5" stroke="currentColor" stroke-width="1.5"/></svg>
+                      Contact Issuer
+                    </a>
+                    <a class="drop-item" id="moreInfoBtn" href="#" target="_blank" rel="noopener" role="menuitem">
+                      <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M10 9v5M10 7v.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+                      More Information
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+
+              <a class="subtle-link" href="#">Sign in to access more options</a>
+
+              <div class="recipient-block">
+                <div class="recipient-avatar" id="detailRecipientAvatar"></div>
+                <div>
+                  <h3 id="detailRecipientName">Harith Dilshan</h3>
+                  <div class="recipient-links">
+                    <a href="#" id="backToListLink">View All Credentials</a>
+                    <a href="https://www.linkedin.com/in/ishannim/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://x.com/d4rkelves" target="_blank" rel="noopener">X</a>
+                  </div>
+                </div>
+              </div>
+
+              <p class="detail-description" id="detailDescription"></p>
+
+              <div class="skills-block">
+                <h3>Skills / Knowledge</h3>
+                <div class="skills-list" id="detailSkills"></div>
+              </div>
+
+              <div class="date-grid">
+                <div>
+                  <span>Issued on</span>
+                  <strong id="detailIssuedOn"></strong>
+                </div>
+                <div>
+                  <span>Expires on</span>
+                  <strong id="detailExpiresOn"></strong>
+                </div>
+              </div>
+            </section>
+
+            <aside class="detail-sidebar">
+              <article class="value-panel">
+                <div class="value-panel__header">
+                  <div class="value-panel__icon">
+                    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path d="M12 2L4 5.5V11c0 5.25 3.4 10.15 8 11.5 4.6-1.35 8-6.25 8-11.5V5.5L12 2z" fill="white"/>
+                    </svg>
+                  </div>
+                  <div class="value-panel__titles">
+                    <h3>Share Your Value</h3>
+                    <p>From this credential</p>
+                  </div>
+                  <div class="value-panel__sparkle" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <path d="M16 4l2 6 6 2-6 2-2 6-2-6-6-2 6-2 2-6z" fill="white"/>
+                      <path d="M26 18l1 3 3 1-3 1-1 3-1-3-3-1 3-1 1-3z" fill="white" opacity=".7"/>
+                    </svg>
+                  </div>
+                </div>
+                <p class="value-panel__intro">
+                  View your talking points &mdash; ready to use on your resume, LinkedIn, or in interviews.
+                </p>
+                <blockquote id="detailTalkingPoint"></blockquote>
+                <a class="value-panel__button" id="viewAllStatementsBtn" href="#" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <ellipse cx="12" cy="12" rx="10" ry="7" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  View All Statements
+                </a>
+              </article>
+
+              <article class="sidebar-card">
+                <h3>Credential Verification</h3>
+                <ul class="verify-list">
+                  <li>This credential is from a <strong>verified issuer</strong></li>
+                  <li>Secured by Blockchain <span class="copy-id">Copy ID</span></li>
+                </ul>
+                <button class="outline-button" id="verifyCredentialBtn" type="button">Verify Credential</button>
+              </article>
+
+              <article class="sidebar-card">
+                <h3>More about the Issuer</h3>
+                <div class="issuer-summary">
+                  <div class="issuer-badge" id="detailIssuerBadgeSecondary"></div>
+                  <span id="detailIssuerNameSecondary">INE</span>
+                </div>
+                <a class="outline-button" id="issuerWebsiteLink" href="#" target="_blank" rel="noopener">Visit Issuer Website</a>
+                <div class="sidebar-card__footer">
+                  <p>More credentials from the Issuer</p>
+                  <a href="#" id="issuerCredentialsLink">View All Credentials</a>
+                </div>
+              </article>
+            </aside>
+          </div>
+        </section>
+
+      </main>
+
+      <footer class="site-footer">
+        <div class="content-width footer-inner">
+          <div class="footer-top">
+            <a class="brand brand--logo footer-brand" href="https://www.credential.net/">
+              <img src="accredible_logo.svg" alt="Accredible" height="28">
+            </a>
+            <div class="footer-language">
+              <label class="language-picker" for="languageSelect">
+                <span>Language:</span>
+                <select id="languageSelect" aria-label="Language selector">
+                  <option value="en-us" selected>English (US)</option>
+                  <option value="en-uk">English (UK)</option>
+                  <option value="es">Espa&ntilde;ol</option>
+                  <option value="fr">Fran&ccedil;ais</option>
+                  <option value="de">Deutsch</option>
+                  <option value="ja">&#x65e5;&#x672c;&#x8a9e;</option>
+                  <option value="zh-cn">&#x7b80;&#x4f53;&#x4e2d;&#x6587;</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="footer-links">
+            <div>
+              <h4>Issue Credentials</h4>
+              <a href="https://www.accredible.com/about">About Accredible</a>
+              <a href="https://www.accredible.com/demo">Request a Demo</a>
+            </div>
+            <div>
+              <h4>Credential Recipients</h4>
+              <a href="https://v2.accounts.accredible.com/credential-retrieval">Retrieve a Credential</a>
+              <a href="https://help.accredible.com/">Help</a>
+            </div>
+            <div class="footer-links__legal">
+              <a href="https://www.accredible.com/legal/terms-of-service">Terms of Service</a>
+              <a href="https://www.accredible.com/legal/privacy-policy">Privacy Policy</a>
+              <a href="https://help.accredible.com/accessibility">Accessibility</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Verify Credential Modal -->
+    <div class="verify-backdrop hidden" id="verifyModal" role="dialog" aria-modal="true" aria-labelledby="verifyModalTitle">
+      <div class="verify-dialog">
+        <div class="verify-dialog__head">
+          <h2 class="verify-dialog__title" id="verifyModalTitle">Credential Verification</h2>
+          <button class="verify-dialog__close" id="verifyModalClose" type="button" aria-label="Close">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+        <div id="verifyBody" class="verify-dialog__body"></div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

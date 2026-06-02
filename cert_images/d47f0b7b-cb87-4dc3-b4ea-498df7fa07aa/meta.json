@@ -1,0 +1,68 @@
+{
+  "uuid": "d47f0b7b-cb87-4dc3-b4ea-498df7fa07aa",
+  "url": "https://www.credential.net/d47f0b7b-cb87-4dc3-b4ea-498df7fa07aa",
+  "screenshot": "screenshot.png",
+  "meta": {
+    "title": "OffSec Certified Professional (OSCP)",
+    "issuer": "\n\nOffSec",
+    "issued_on": "Issued on May 22, 2022 ",
+    "description": "Home of digital credentials",
+    "og_image": "https://api.accredible.com/v1/frontend/credential_opengraph_seo_image/51711669",
+    "og_title": "OffSec Certified Professional (OSCP) \u2022 Harith Dilshan \u2022 Cybersecurity Training Badges from OffSec ",
+    "og_desc": "Home of digital credentials"
+  },
+  "images": [
+    {
+      "file": "001_rosette_svg.svg",
+      "url": "https://www.credential.net/assets/images/rosette.svg",
+      "size": 2033
+    },
+    {
+      "file": "002_user_svg.svg",
+      "url": "https://www.credential.net/assets/images/icons/user.svg",
+      "size": 476
+    },
+    {
+      "file": "003_accredible_logo_svg.svg",
+      "url": "https://www.credential.net/assets/themes/credential.net/images/accredible_logo.svg",
+      "size": 16993
+    },
+    {
+      "file": "004_accredible_credential_net_logo_svg.svg",
+      "url": "https://www.credential.net/assets/themes/credential.net/images/accredible_credential_net_logo.svg",
+      "size": 16993
+    },
+    {
+      "file": "005_logo_48_png.png",
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+      "size": 2228
+    },
+    {
+      "file": "006_1677682410975725023965573912354_png.png",
+      "url": "https://templates.images.credential.net/1677682410975725023965573912354.png",
+      "size": 35475
+    },
+    {
+      "file": "007_1677688426119022572090472748455_png.png",
+      "url": "https://accredible_temp_credential_images.s3-external-1.amazonaws.com/1677688426119022572090472748455.png?cb=1677688426516",
+      "size": 22210
+    },
+    {
+      "file": "008_16776892683675360007228874680604_png.png",
+      "url": "https://templates.images.credential.net/16776892683675360007228874680604.png",
+      "size": 187133
+    },
+    {
+      "file": "009_17519461128378714859392592587570_jpeg.jpeg",
+      "url": "https://accredible_temp_credential_images.s3-external-1.amazonaws.com/17519461128378714859392592587570.jpeg?cb=1751946117206",
+      "size": 753714
+    }
+  ],
+  "largest_images": [
+    "009_17519461128378714859392592587570_jpeg.jpeg",
+    "008_16776892683675360007228874680604_png.png",
+    "006_1677682410975725023965573912354_png.png",
+    "007_1677688426119022572090472748455_png.png",
+    "003_accredible_logo_svg.svg"
+  ]
+}

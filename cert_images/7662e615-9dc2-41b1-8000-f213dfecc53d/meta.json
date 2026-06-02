@@ -1,0 +1,98 @@
+{
+  "uuid": "7662e615-9dc2-41b1-8000-f213dfecc53d",
+  "url": "https://www.credential.net/7662e615-9dc2-41b1-8000-f213dfecc53d",
+  "screenshot": "screenshot.png",
+  "meta": {
+    "title": "INE Certified Cloud Associate",
+    "issuer": "\n\nINE",
+    "issued_on": "Issued on July 20, 2025 ",
+    "description": "Learn from the world\u2019s leading experts in Cloud, Cybersecurity, Data Science & Networking. Train with INE and prove your skills by earning top industry recognized IT certifications.",
+    "og_image": "https://api.accredible.com/v1/frontend/credential_opengraph_seo_image/155594619",
+    "og_title": "INE Certified Cloud Associate \u2022 Harith Dilshan \u2022 INE - Expert IT Training & Certifications ",
+    "og_desc": "Learn from the world\u2019s leading experts in Cloud, Cybersecurity, Data Science & Networking. Train with INE and prove your skills by earning top industry recognized IT certifications."
+  },
+  "images": [
+    {
+      "file": "001_rosette_svg.svg",
+      "url": "https://www.credential.net/assets/images/rosette.svg",
+      "size": 2033
+    },
+    {
+      "file": "002_user_svg.svg",
+      "url": "https://www.credential.net/assets/images/icons/user.svg",
+      "size": 476
+    },
+    {
+      "file": "003_accredible_logo_svg.svg",
+      "url": "https://www.credential.net/assets/themes/credential.net/images/accredible_logo.svg",
+      "size": 16993
+    },
+    {
+      "file": "004_logo_48_png.png",
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+      "size": 2228
+    },
+    {
+      "file": "005_accredible_credential_net_logo_svg.svg",
+      "url": "https://www.credential.net/assets/themes/credential.net/images/accredible_credential_net_logo.svg",
+      "size": 16993
+    },
+    {
+      "file": "006_ethereum_svg.svg",
+      "url": "https://www.credential.net/assets/images/colored-icons/ethereum.svg",
+      "size": 792
+    },
+    {
+      "file": "007_16917020977355734965937047348623_png.png",
+      "url": "https://templates.images.credential.net/16917020977355734965937047348623.png",
+      "size": 8503
+    },
+    {
+      "file": "008_16945463285349996469494460218671_png.png",
+      "url": "https://accredible_temp_credential_images.s3-external-1.amazonaws.com/16945463285349996469494460218671.png?cb=1694546328265",
+      "size": 9581
+    },
+    {
+      "file": "009_16916892782287786227489803518399_png.png",
+      "url": "https://templates.images.credential.net/16916892782287786227489803518399.png",
+      "size": 12235
+    },
+    {
+      "file": "010_16916938665905292315226059213108_png.png",
+      "url": "https://templates.images.credential.net/16916938665905292315226059213108.png",
+      "size": 6883
+    },
+    {
+      "file": "011_16947189788992358021417296177256_png.png",
+      "url": "https://templates.images.credential.net/16947189788992358021417296177256.png",
+      "size": 31598
+    },
+    {
+      "file": "012_16917029678111417759564918694330_png.png",
+      "url": "https://templates.images.credential.net/16917029678111417759564918694330.png",
+      "size": 82233
+    },
+    {
+      "file": "013_17612497957469396532667330534701_png.png",
+      "url": "https://templates.images.credential.net/17612497957469396532667330534701.png",
+      "size": 82966
+    },
+    {
+      "file": "014_17519461128378714859392592587570_jpeg.jpeg",
+      "url": "https://accredible_temp_credential_images.s3-external-1.amazonaws.com/17519461128378714859392592587570.jpeg?cb=1751946117206",
+      "size": 753714
+    },
+    {
+      "file": "015_16917028202016336395460301133105_png.png",
+      "url": "https://templates.images.credential.net/16917028202016336395460301133105.png",
+      "size": 207038
+    }
+  ],
+  "largest_images": [
+    "014_17519461128378714859392592587570_jpeg.jpeg",
+    "015_16917028202016336395460301133105_png.png",
+    "013_17612497957469396532667330534701_png.png",
+    "012_16917029678111417759564918694330_png.png",
+    "011_16947189788992358021417296177256_png.png"
+  ]
+}
