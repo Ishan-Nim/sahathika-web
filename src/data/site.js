@@ -6,7 +6,7 @@ import oscpCert from "../../Certs/7.png";
 
 import recipientPhoto from "../../cert_images/wallet_ishannim725761/009_17547308458293757209917787462506_jpeg.jpeg";
 import ineLogo from "../../cert_images/5288c26e-cd38-47c1-b036-eaa1ed04cc92/009_16945463285349996469494460218671_png.png";
-import offsecLogo from "../../cert_images/offsec_logo.svg";
+import offsecLogo from "../../cert_images/d47f0b7b-cb87-4dc3-b4ea-498df7fa07aa/007_1677688426119022572090472748455_png.png";
 import ecLogo from "../../cert_images/ec_logo.png";
 
 import ejptBadge from "../../cert_images/5288c26e-cd38-47c1-b036-eaa1ed04cc92/012_16947192901898719699151540862834_png.png";

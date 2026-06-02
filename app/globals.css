@@ -297,11 +297,6 @@ img {
   margin-bottom: 6px;
 }
 
-.issuer-badge-img--offsec {
-  background: #1a1a2e;
-  padding: 2px;
-}
-
 @media (max-width: 900px) {
   .action-drop__menu {
     left: auto;
