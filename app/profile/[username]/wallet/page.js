@@ -18,7 +18,7 @@ function Header() {
   return (
     <header className="topbar">
       <div className="topbar__inner">
-        <a className="brand brand--logo" href="https://elvescore.jp">
+        <a className="brand brand--logo" href="https://www.credential.net/">
           <img src={brandAssets.headerLogo.src} alt="Accredible Credential.net" height="32" className="brand__image" />
         </a>
         <nav className="topbar__nav" aria-label="Primary">
@@ -44,7 +44,7 @@ function Footer({ language, setLanguage }) {
     <footer className="site-footer">
       <div className="content-width footer-inner">
         <div className="footer-top">
-          <a className="brand brand--logo footer-brand" href="https://elvescore.jp">
+          <a className="brand brand--logo footer-brand" href="https://www.credential.net/">
             <img src={brandAssets.footerLogo.src} alt="Accredible" height="28" className="brand__image brand__image--footer" />
           </a>
           <div className="footer-language">
@@ -80,10 +80,11 @@ function Footer({ language, setLanguage }) {
 
 function renderIssuerBadge(credential) {
   const logo = issuerLogos[credential.issuer];
+  const issuerKey = credential.issuer.toLowerCase().replace(/[^a-z]/g, "");
   if (!logo) return <span>{credential.issuerShort}</span>;
   return (
     <>
-      <span className="issuer-badge-img">
+      <span className={`issuer-badge-img issuer-badge-img--${issuerKey}`}>
         <img src={logo.src} alt={`${credential.issuer} logo`} />
       </span>
       <span className="verified-check" aria-label="Verified issuer">

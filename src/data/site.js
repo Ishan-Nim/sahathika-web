@@ -64,7 +64,7 @@ export const legalLinks = [
   { label: "Terms of Service", url: "https://www.accredible.com/legal/terms-of-service" },
   { label: "Privacy Policy", url: "https://www.accredible.com/legal/privacy-policy" },
   { label: "Accessibility", url: "https://help.accredible.com/accessibility" },
-  { label: "Site Map", url: "https://www.credential.net/sitemap.xml" },
+  { label: "Site Map", url: "https://www.credential.net/site-map" },
 ];
 
 export const languages = [
